@@ -30,5 +30,24 @@ STRINGHANDLINGDEMO : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-
 
 program3
 
+p1 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p1.png
+
+p2 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p2.png
+
+p3 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p3.png
+
+p4 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p4.png
+
+p5 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p5.png
+
+p6 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p6.png
+
+p7 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p7.png
+
+p8 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p8.png
+
+p9 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p9.png
+
+p10 : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/prg3p10.png
 
 
