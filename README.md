@@ -24,3 +24,11 @@ P10: https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/
 
 program2
 
+PERFORMENCETEST : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/performancetest.png
+
+STRINGHANDLINGDEMO : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/stringhandlingdemo.png
+
+program3
+
+
+
