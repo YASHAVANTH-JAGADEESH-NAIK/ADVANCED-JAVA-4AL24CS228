@@ -59,4 +59,13 @@ imagebutton output : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-
 program5
 
 
+jlistcapitalexample output : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/jlistcapitalexample.png
+
+jlistexample output :  https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/jlistexample.png
+
+tabbedpane output link : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/tabbedpaneexample.png
+
+tabbedpane1 output link : https://github.com/YASHAVANTH-JAGADEESH-NAIK/ADVANCED-JAVA-4AL24CS228/blob/main/tabbedpaneexample1.png
+
+
 
