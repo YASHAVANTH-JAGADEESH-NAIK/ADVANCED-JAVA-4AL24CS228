@@ -6,8 +6,7 @@ String Searching, Substring Operations , String Modification, Whitespace Handlin
 Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with
 contains( ) and startsWith() and endsWith()
 */
-package prg02;
-
+package String_Functions;
 public class StringHandlingDemo {
     public static void main(String[] args) {
         // Basic String Creation

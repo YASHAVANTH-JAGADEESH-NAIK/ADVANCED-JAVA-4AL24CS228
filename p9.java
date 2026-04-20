@@ -1,24 +1,21 @@
 /*
- Write a Java program to display elements and their positions in a linked list ( using
-l_listobj.get(p) )
+ Write a Java Program for Creating a random string of a specified length using user
+defined function generateRandomString()
 */
-package com.lab;
-
-import java.util.*;
+package String_Functions;
 
 public class p9 {
+	 public static String generateRandomString(int length) {
+	        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+	        StringBuilder random = new StringBuilder();
+	        for (int i = 0; i < length; i++) {
+	            int index = (int) (Math.random() * characters.length());
+	            random.append(characters.charAt(index));
+	        }
+	        return random.toString();
+	    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		LinkedList<String> ls = new LinkedList<>();
-		ls.add("Orange");
-		ls.add("geen");
-		ls.add("pink");
-		ls.add("red");
-		ls.add("Blue");
-		for(int i=0;i<ls.size();i++) {
-			System.out.println("index: "+i+" value:"+ls.get(i));
-		}
-	}
-
+	    public static void main(String[] args) {
+	        System.out.println("Random String: " + generateRandomString(10));
+	    }
 }

@@ -1,25 +1,25 @@
 /*
- Write a Java program to iterate through all elements in a linked list starting at
-the specified position ( 2nd ) using iterator ( hint : Iterator iteratorobj =
-listobj.listIterator(1))
+ Write a Java Program for Capitalizing the first letter of each word. using user defined
+function capitalizeWords()
 */
-package com.lab;
+package String_Functions;
 
-import java.util.*;
 public class p6 {
+	 public static String capitalizeWords(String str) {
+	        if (str == null || str.isEmpty()) return str;
+	        StringBuilder result = new StringBuilder();
+	        String[] words = str.split("\\s+");
+	        for (String word : words) {
+	            if (!word.isEmpty()) {
+	                result.append(Character.toUpperCase(word.charAt(0)))
+	                      .append(word.substring(1).toLowerCase())
+	                      .append(" ");
+	            }
+	        }
+	        return result.toString().trim();
+	    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		List<String>	ls = new LinkedList<>();
-		ls.add("Orange");
-		ls.add("geen");
-		ls.add("pink");
-		ls.add("red");
-		ls.add("Blue");
-		Iterator iterator = ls.listIterator(2);
-		while (iterator.hasNext()) {
-		System.out.println(iterator.next());
-		}
-	}
-
+	    public static void main(String[] args) {
+	        System.out.println("Capitalized: " + capitalizeWords("hello world"));
+	    }
 }

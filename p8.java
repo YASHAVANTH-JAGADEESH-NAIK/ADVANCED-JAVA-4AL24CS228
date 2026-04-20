@@ -1,25 +1,16 @@
 /*
-Write a Java program to insert the specified element at the end of a linked list.( using
-l_listobj.offerLast("Pink")
+ Write a Java Program for Verifying if a string contains only numeric characters using user
+defined function isNumeric()
 */
-package com.lab;
+package String_Functions;
 
-import java.util.*;
 public class p8 {
+	 public static boolean isNumeric(String str) {
+	        if (str == null || str.isEmpty()) return false;
+	        return str.matches("\\d+");
+	    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		LinkedList<String> ls = new LinkedList<>();
-		ls.add("Orange");
-		ls.add("geen");
-		ls.add("pink");
-		ls.add("red");
-		ls.add("Blue");
-		System.out.println(ls);
-		ls.addLast("pink");
-		System.out.println(ls);
-	
+	    public static void main(String[] args) {
+	        System.out.println("Is Numeric: " + isNumeric("12345"));
+	    }
 	}
-
-}

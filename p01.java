@@ -4,7 +4,7 @@ using user defined function isNullOrEmpty().
 */
 package String_Functions;
 
-public class p1 {
+public class p01 {
 	   public static boolean isNullOrEmpty(String str) {
 	        return str == null || str.trim().isEmpty();
 	    }

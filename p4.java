@@ -1,22 +1,17 @@
 /*
- Write a java program for getting different colors through ArrayList interface and extract
-the elements 1st and 2nd from the ArrayList object by using SubList()
+ Write a Java Program for Checking if a string reads the same backward as forward
+(ignoring case and punctuation) using user defined function isPalindrome():
 */
-package com.lab;
-import java.util.*;
+package String_Functions;
+
 public class p4 {
+	 public static boolean isPalindrome(String str) {
+	        if (str == null) return false;
+	        String cleaned = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+	        return cleaned.equals(new StringBuilder(cleaned).reverse().toString());
+	    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		List<String> ls = new ArrayList<>();
-		ls.add("Orange");
-		ls.add("geen");
-		ls.add("pink");
-		ls.add("red");
-		ls.add("Blue");
-		System.out.println(ls);
-		System.out.println("using sublist:");
-		System.out.println(ls.subList(0,2));
-	}
-
+	    public static void main(String[] args) {
+	        System.out.println("Palindrome: " + isPalindrome("A man, a plan, a canal: Panama"));
+	    }
 }
